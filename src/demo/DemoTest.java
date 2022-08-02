@@ -10,5 +10,10 @@ public class DemoTest {
 	public static void subtract(int a, int b) {
 		System.out.println(a-b);
 	}
+	
+	public static void multiply(int a, int b){
+		int c = a * b;
+		System.out.println("Multiply: " + c);
+	}
 
 }
